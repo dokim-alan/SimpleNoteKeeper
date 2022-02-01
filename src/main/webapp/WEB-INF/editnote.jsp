@@ -9,7 +9,10 @@
         <h1>Edit Note</h1>
         
         <form action="note" method="post">
+            <p><strong>Title: </strong></p>
             <input type="text" name="title" id="title" placeholder="Title"><br>
+            
+            <p><strong>Contents: </strong></p>
             <input type="text" name="contents" id="contents" placeholder="Contents"><br>
 
             <button type="submit">Save</button>
